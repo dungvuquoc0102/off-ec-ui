@@ -1,0 +1,13 @@
+@use "./reset";
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  place-content: stretch space-between;
+  width: 1200px;
+  max-width: 100%;
+}
