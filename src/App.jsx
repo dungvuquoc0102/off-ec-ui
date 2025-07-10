@@ -28,7 +28,7 @@ function App() {
   dispatch();
   return (
     <Provider store={store}>
-      <AppRoutes />z
+      <AppRoutes />
     </Provider>
   );
 }
